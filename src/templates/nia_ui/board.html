@@ -1,0 +1,40 @@
+<html>
+<head>
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    .board {
+      display: grid;
+      grid-template: 2rem 1fr / 1fr 1fr 1fr;
+      grid-gap: 1rem 1rem;
+    }
+
+    .well-header {
+      order: -1;
+      border-radius: 4px;
+      padding: 0.5rem;
+      background-color: navy;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="board">
+    <header class="well-header" id="values-header">Values</header>
+    <div class="well" id="values-well">
+    </div>
+
+    <header class="well-header" id="goals-header">Goals</header>
+    <div class="well" id="goals-well">
+    </div>
+
+    <header class="well-header" id="projects-header">Projects</header>
+    <div class="well" id="projects-well">
+    </div>
+  </div>
+</body>
+</html>
